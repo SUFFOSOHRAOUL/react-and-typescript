@@ -1,0 +1,47 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px 0px;
+}
+.head .h1 {
+  margin: 20px 0px;
+}
+.fbody {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.section {
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section p {
+  margin: 10px;
+}
+.section .h1 {
+  font-size: 18px;
+}
+hr {
+  margin: 50px 150px 0px 150px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  margin: auto;
+}
+
+.copyright h2 {
+  padding: 0px 50px;
+}
+.icons {
+  margin: 15px 0px;
+}

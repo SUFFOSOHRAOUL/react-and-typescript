@@ -1,6 +1,6 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-import "/navbar.css";
+import "./navbar.css";
+import Buttons from "../../components/Buttons/Buttons";
 function Navbar() {
   return (
     <nav className="navbar">
@@ -11,32 +11,45 @@ function Navbar() {
         <div className="nav-elements">
           <ul>
             <li>
-              <NavLink>About Us</NavLink>
+              <NavLink to="#">About Us</NavLink>
             </li>
             <li>
               {" "}
-              <NavLink>Service</NavLink>
+              <NavLink to="#">Service</NavLink>
             </li>
             <li>
               {" "}
-              <NavLink>Doctors</NavLink>
+              <NavLink to="#">Doctors</NavLink>
             </li>
             <li>
               {" "}
-              <NavLink>Equipment</NavLink>
+              <NavLink to="#">Equipment</NavLink>
             </li>
             <li>
               {" "}
-              <NavLink>Charity</NavLink>
+              <NavLink to="#">Charity</NavLink>
             </li>
             <li>
               {" "}
-              <NavLink>Reviews</NavLink>
+              <NavLink to="#">Reviews</NavLink>
             </li>
           </ul>
         </div>
         <div className="buttons">
-          <h1>buttons</h1>
+          <Buttons
+            disabled={false}
+            buttonText="Questionnaire"
+            onClick={() => {}}
+            color={ "#183dff"}
+            textColor={"#ffffff"}
+          />
+          <Buttons
+            disabled={false}
+            buttonText="Free Call"
+            onClick={() => {}}
+            color={"#ffffff"}
+            textColor={"#183dff"}
+          />
         </div>
       </div>
     </nav>
